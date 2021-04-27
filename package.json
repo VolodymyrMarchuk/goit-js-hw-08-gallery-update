@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel <your entry file>",
-    "build": "parcel build <your entry file>"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/VolodymyrMarchuk/goit-js-hw-08-gallery-update/issues"
   },
-  "homepage": "https://github.com/VolodymyrMarchuk/goit-js-hw-08-gallery-update#readme"
+  "homepage": "https://github.com/VolodymyrMarchuk/goit-js-hw-08-gallery-update#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
