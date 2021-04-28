@@ -1,5 +1,5 @@
 import { refs } from '../gallery-module/refs';
-import onCloseModalClick from './close-modal-click';
+import { onCloseModalClick } from './close-modal-click';
 import { onEscapeKeyPress } from './modal-press-key';
 
 export function onOpenModalClick(e) {

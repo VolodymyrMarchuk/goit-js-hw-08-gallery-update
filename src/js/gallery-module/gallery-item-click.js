@@ -1,7 +1,8 @@
 import { refs } from '../gallery-module/refs';
-import onOpenModalClick from './open-modal-click';
+import { onOpenModalClick } from './open-modal-click';
 
 export function onGalleryItemClick(e) {
+  console.log('sdfsd');
   e.preventDefault();
   if (e.target.nodeName !== 'IMG') {
     return;
